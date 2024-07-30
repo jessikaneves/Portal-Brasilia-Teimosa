@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+.bgNav {
+    background-color: #264653;
+}
+
+.fontNav {
+    font-family: "Inika", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.bgBody {
+    background: #FDF5E6;
+}
+
+.bgtext {
+    background: #2A9D8F;
+    padding: 20px;
+
+}
+
+.bgtext2 {
+    background: #264653;
+}
+
+.justificado {
+    text-align: justify;
+
+}
+
+.inika-regular {
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.inika-bold {
+    font-family: "Inika", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+.video-background {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.containerform {
+    background-color: #FDF5E6;
+    /* Cor de fundo similar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-form {
+    background-color: #fff5e6;
+    border: 1px solid #090909;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.contact-form h4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form .form-control {
+    margin-bottom: 15px;
+}
+
+.contact-form .btn {
+    background-color: #2A9D8F;
+    color: white;
+    width: 100%;
+}
+
+.but {
+    background-color: #e76f51;
+    color: white;
+    width: 100%;
+}
+
+.contact-form .btn:hover {
+    background-color: #39837a;
+}
+
+.contact-form a {
+    color: #007bff;
+}
+
+.contact-form a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #e76f51;
+    color: white;
+    text-align: center;
+}
+
+.footer .footer-top {
+    background-color: #e76f51;
+    padding: 10px 0;
+}
+
+.footer .footer-top img {
+    max-width: 100px;
+}
+
+.footer .footer-bottom {
+    background-color: #333;
+    padding: 3px 0;
+}
+
+.dark-mode  .containerform {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .bgNav,
+.dark-mode .navbar {
+    background-color: #1f1f1f;
+}
+
+.dark-mode .bgtext,
+.dark-mode .bgtext2 {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.dark-mode .btn,
+.dark-mode .nav-link,
+.dark-mode .dropdown-item {
+    color: #ffffff;
+}
+
+.dark-mode .btn {
+    background-color: #333;
+}
