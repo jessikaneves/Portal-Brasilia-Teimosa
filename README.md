@@ -1,9 +1,3 @@
-Para adicionar fotos de perfil do GitHub ao README e garantir que todas as fotos tenham o mesmo tamanho, você pode usar a URL do avatar do GitHub e definir uma altura fixa no código Markdown.
-
-Aqui está um exemplo de como fazer isso no README:
-
----
-
 # Portal Gastronômico de Brasília Teimosa, Recife - PE
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
