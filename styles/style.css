@@ -43,6 +43,14 @@
     font-style: normal;
     font-size: 30px;
 }
+.logos {
+    border-radius: 50%;
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover; 
+    max-width: 100%;
+}
+
 
 
 body,
