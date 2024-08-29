@@ -1,0 +1,60 @@
+.fontNav {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 17px;
+}
+.bgNav {
+    background-color: #264653;
+}
+
+/*Dark mode*/
+
+.dark-mode .containerform {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .bgNav,
+.dark-mode .navbar {
+    background-color: #1f1f1f;
+}
+
+.dark-mode .bgtext,
+.dark-mode .bgtext2 {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+.dark-mode .btn,
+.dark-mode .nav-link,
+.dark-mode .dropdown-item {
+    color: #ffffff;
+}
+
+.dark-mode .btn {
+    background-color: #333;
+}
+
+
+/*Footer*/
+
+.footer {
+    background-color: #e76f51;
+    color: white;
+    text-align: center;
+}
+
+.footer .footer-top {
+    background-color: #e76f51;
+    padding: 10px 0;
+}
+
+.footer .footer-top img {
+    max-width: 100px;
+}
+
+.footer .footer-bottom {
+    background-color: #333;
+    padding: 3px 0;
+}

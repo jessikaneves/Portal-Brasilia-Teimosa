@@ -1,22 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
 
 .bgNav {
     background-color: #264653;
 }
 
+.text {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+.abhaya-libre-regular {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.abhaya-libre-medium {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.abhaya-libre-semibold {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.abhaya-libre-bold {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.abhaya-libre-extrabold {
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+}
+
 .fontNav {
-    font-family: "Inika", serif;
+    font-family: "Abhaya Libre", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 17px;
 }
+
+.half-gradient-background {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #264653 50%, #FDF5E6 50%);
+
+}
+
+.carousel-item {
+    background-color: #FDF5E6;
+    border-radius: 52px;
+    overflow: hidden;
+    margin-top: 100px;
+    box-shadow: 4px 4px 8px rgba(0.2, 0.2, 0.2, 0.2);
+
+}
+
+.carousel-item img {
+    border-radius: 52px;
+    width: 100px;
+    height: 500px;
+    margin: 20px;
+    
+}
+
+.carousel-item hr{
+    margin-left: 100px;
+    margin-right: 100px ;
+}
+.carousel-item p{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.carousel-inner {
+    padding: 20px;
+    
+}
+
+.content2 {
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
 
 .bgBody {
     background: #FDF5E6;
 }
 
 .bgtext {
-    background: #2A9D8F;
+    background: #264653;
     padding: 20px;
 
 }
@@ -25,32 +114,38 @@
     background: #264653;
 }
 
-.justificado {
-    text-align: justify;
-
-}
-
-.inika-regular {
-    font-family: "Inika", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-}
-
-.inika-bold {
-    font-family: "Inika", serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 30px;
-}
 .logos {
     border-radius: 50%;
-    width: 400px; 
-    height: 400px; 
-    object-fit: cover; 
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
     max-width: 100%;
 }
 
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.images img {
+    width: 300px;
+    height: auto;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    object-fit: cover;
+}
+
+
+h1 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.5;
+}
 
 
 body,
@@ -89,9 +184,10 @@ html {
     padding: 20px;
 }
 
+
+/*Form*/
 .containerform {
     background-color: #FDF5E6;
-    /* Cor de fundo similar */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,11 +217,7 @@ html {
     width: 100%;
 }
 
-.but {
-    background-color: #e76f51;
-    color: white;
-    width: 100%;
-}
+
 
 .contact-form .btn:hover {
     background-color: #39837a;
@@ -138,6 +230,8 @@ html {
 .contact-form a:hover {
     text-decoration: underline;
 }
+
+/*Footer*/
 
 .footer {
     background-color: #e76f51;
@@ -159,7 +253,9 @@ html {
     padding: 3px 0;
 }
 
-.dark-mode  .containerform {
+/*Dark mode*/
+
+.dark-mode .containerform {
     background-color: #121212;
     color: #ffffff;
 }
